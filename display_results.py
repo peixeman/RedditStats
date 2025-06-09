@@ -1,6 +1,7 @@
 import numpy as np
 import numpy._core._exceptions
 import matplotlib.pyplot as plt
+import os
 import pickle
 import logging
 
@@ -24,6 +25,15 @@ def main(subreddit, user):
 
     # Combines data for visualization scaling
     combined_data = np.concatenate((means_of_s_trials, means_of_u_trials))
+
+    # Ensures results folder exists
+    if not os.path.exists("results"):
+        logging.warning("Missing results folder, creating...")
+        try:
+            os.mkdir("results")
+        except Exception as err:
+            logging.error(err)
+            return None
 
     # Histogram of subreddit results using matplot
     plt.hist(means_of_s_trials, bins=15, edgecolor="black")

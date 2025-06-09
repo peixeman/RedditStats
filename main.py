@@ -4,7 +4,15 @@ import display_results as dsp
 from tkinter import *
 from scipy.stats import norm
 from PIL import Image, ImageTk
+import os
 import logging
+
+# Ensures logs folder exists
+if not os.path.exists("logs"):
+    try:
+        os.mkdir("logs")
+    except:
+        exit(-1)
 
 # Log setup
 logging.basicConfig(filename="logs/main.log", level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
