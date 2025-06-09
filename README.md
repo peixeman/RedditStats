@@ -10,6 +10,7 @@ This project allows users to procure subreddit upvote data and compare them agai
 * Pillow
 * SciPy
 * Selenium
+
 Built-in packages:
 * logging
 * os
