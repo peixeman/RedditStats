@@ -17,3 +17,6 @@ Built-in packages:
 * pickle
 * random
 * Tkinter
+
+## Installation
+Download a release and extract the files to any folder.
