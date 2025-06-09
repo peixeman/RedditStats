@@ -21,4 +21,12 @@ Built-in packages:
 * Tkinter
 
 ## Installation
-Download a release and extract the files to any folder.
+Download a release and extract the files to any folder. Currently, this project is designed for and has been tested on Windows, though it may be possible for the Python files to function on Linux.
+
+## Tested Hardware
+### Operating System
+* Windows 10 64-bit
+### CPU
+* Intel Core i7-9700K
+### GPU
+* NVIDIA GeForce GTX 980 Ti
