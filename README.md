@@ -43,7 +43,10 @@ NOTE: These will be regenerated each time you choose to display.
 ## Tested Hardware
 ### Operating System
 * Windows 10 64-bit
+* Windows 11 64-bit
 ### CPU
+* Intel Core i7-1360P
 * Intel Core i7-9700K
 ### GPU
+* Intel Iris Xe Graphics
 * NVIDIA GeForce GTX 980 Ti
